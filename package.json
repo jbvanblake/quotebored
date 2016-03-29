@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha spec"
+    "test": "mocha --timeout 15000 spec"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "expect": "^1.16.0",
     "express": "^4.13.4",
     "mocha": "^2.4.5",
+    "supertest": "^1.2.0",
     "underscore": "^1.8.3"
   }
 }
